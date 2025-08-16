@@ -1,0 +1,16 @@
+body{
+    background-color: aqua;
+}
+button{
+    background-color: rgb(1, 212, 212);
+    border-radius: 5px;
+    border-width: 2px;
+    color: black;
+    border-color: black;
+}
+button:hover{
+    background-color: aqua;
+}
+hr{
+    border-color: aqua;
+}
