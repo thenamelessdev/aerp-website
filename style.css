@@ -8,6 +8,7 @@ button{
     color: black;
     border-color: black;
     margin: 10px;
+    transition: 0.4s ease;
 }
 button:hover{
     background-color: aqua;
@@ -24,6 +25,7 @@ hr{
     display: inline-block;
     padding: 5px;
     box-shadow: 5px 5px 11px black;
+    transition: 0.4s ease;
 }
 .aboutusbox:hover{
     box-shadow: 3px 3px 11px black;
