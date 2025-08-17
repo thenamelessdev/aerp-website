@@ -7,6 +7,7 @@ button{
     border-width: 2px;
     color: black;
     border-color: black;
+    margin: 10px;
 }
 button:hover{
     background-color: aqua;
@@ -22,4 +23,8 @@ hr{
     margin: 10px;
     display: inline-block;
     padding: 5px;
+    box-shadow: 5px 5px 11px black;
+}
+.aboutusbox:hover{
+    box-shadow: 3px 3px 11px black;
 }
