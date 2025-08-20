@@ -16,5 +16,17 @@
     <p>AERP is a Emergency Hamburg private server.</p>
     <br>
     <p>&copy; 2025 AERP. Licensed under the Apache License, Version 2.0.</p>
+    <script>
+        const first = Math.floor(Math.random() * 10);
+        const second = Math.floor(Math.random() * 10) + 1;
+        const result = first + second;
+        const answer = parseInt(window.prompt(`Bot verification: What is ${first} + ${second}?`));
+        if (answer !== result){
+            window.location.href = "meow.html";
+        }
+        else{
+            alert("Verification successful! You can now access the site.");
+        }
+    </script>
 </body>
 </html>
