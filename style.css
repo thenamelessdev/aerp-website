@@ -37,3 +37,17 @@ hr{
 .aboutusbox:hover{
     box-shadow: 4px 4px 11px chartreuse;
 }
+#noaccess{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 4px;
+    margin: 5px;
+    padding: 10px;
+    display: inline-block;
+    color: black;
+    transition: 0.4s ease;
+}
+#noaccess:hover{
+    box-shadow: 3px 3px 11px black;
+}
